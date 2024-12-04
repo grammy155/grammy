@@ -1,4 +1,4 @@
-_G.Color = Color3.fromRGB(0, 0, 255)
+
 _G.Logo = 14714307716
 
 do  
@@ -457,7 +457,7 @@ function library:Evil(text,text2,logo)
 	Title2.Size = UDim2.new(0, 483, 0, 31)
 	Title2.Font = Enum.Font.GothamMedium
 	Title2.Text = text2
-	Title2.TextColor3 = _G.Color
+	Title2.TextColor3 = Color3.fromRGB(0, 0, 0)
 	Title2.TextSize = 17.000
 	Title2.TextWrapped = true
 	Title2.TextXAlignment = Enum.TextXAlignment.Left
@@ -802,7 +802,7 @@ function library:Evil(text,text2,logo)
 			Sectionname.Size = UDim2.new(0, 224, 0, 24)
 			Sectionname.Font = Enum.Font.GothamBold
 			Sectionname.Text = Name
-			Sectionname.TextColor3 = _G.Color
+			Sectionname.TextColor3 = Color3.fromRGB(0, 0, 0)
 			Sectionname.TextSize = 14.000
 			Sectionname.TextTransparency = 0
 			Sectionname.TextXAlignment = Enum.TextXAlignment.Left
@@ -933,7 +933,7 @@ function library:Evil(text,text2,logo)
 				if default then
 					Button_2.BackgroundColor3 = Color3.fromRGB(33, 132, 112)
 				else
-					Button_2.BackgroundColor3 = _G.Color
+					Button_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				end
 
 				UICorner_21.CornerRadius = UDim.new(0, 4)
@@ -977,7 +977,7 @@ function library:Evil(text,text2,logo)
 						Button_2,
 						TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{
-							BackgroundColor3 = state and _G.Color or Color3.fromRGB(33, 132, 112)
+							BackgroundColor3 = state and Color3.fromRGB(0, 0, 0) or Color3.fromRGB(33, 132, 112)
 						}
 					):Play()
 					callback(default)
@@ -988,7 +988,7 @@ function library:Evil(text,text2,logo)
 						Button_2,
 						TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{
-							BackgroundColor3 = state and Color3.fromRGB(33, 132, 112) or _G.Color
+							BackgroundColor3 = state and Color3.fromRGB(33, 132, 112) or Color3.fromRGB(0, 0, 0)
 						}
 					):Play()
 					callback(state)
@@ -1007,7 +1007,7 @@ function library:Evil(text,text2,logo)
 
 				Button.Name = "Button"
 				Button.Parent = SectionContainer
-				Button.BackgroundColor3 = _G.Color
+				Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				Button.Size = UDim2.new(0, 265, 0, 30)
 				Button.ZIndex = 16
 
@@ -1191,7 +1191,7 @@ function library:Evil(text,text2,logo)
 				Text_5.ZIndex = 16
 				Text_5.Font = Enum.Font.GothamBold
 				Text_5.Text = Name
-				Text_5.TextColor3 = _G.Color
+				Text_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 				Text_5.TextSize = 11.000
 				Text_5.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1232,7 +1232,7 @@ function library:Evil(text,text2,logo)
 				ButtonColor44.Parent = HeadTitle
 				ButtonColor44.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 				ButtonColor44.LineJoinMode = Enum.LineJoinMode.Round
-				ButtonColor44.Color = _G.Color
+				ButtonColor44.Color = Color3.fromRGB(0, 0, 0)
 				ButtonColor44.Transparency = 0
 				
 				HeadTitle.FocusLost:Connect(
@@ -1650,7 +1650,7 @@ function library:Evil(text,text2,logo)
 								TweenService:Create(
 									_5,
 									TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-									{TextColor3 = _G.Color}
+									{TextColor3 = Color3.fromRGB(0, 0, 0)}
 								):Play()
 							else
 								TweenService:Create(
@@ -1766,7 +1766,7 @@ function library:Evil(text,text2,logo)
 
 				MainValue.Name = "MainValue"
 				MainValue.Parent = ValueFrame
-				MainValue.BackgroundColor3 = _G.Color
+				MainValue.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 				MainValue.Size = UDim2.new((de or 0) / max, 0, 0, 5)
 				MainValue.BorderSizePixel = 0
 
