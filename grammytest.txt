@@ -802,7 +802,7 @@ function library:Evil(text,text2,logo)
 			Sectionname.Size = UDim2.new(0, 224, 0, 24)
 			Sectionname.Font = Enum.Font.GothamBold
 			Sectionname.Text = Name
-			Sectionname.TextColor3 = Color3.fromRGB(0, 0, 0)
+			Sectionname.TextColor3 = Color3.fromRGB(255, 255, 255)
 			Sectionname.TextSize = 14.000
 			Sectionname.TextTransparency = 0
 			Sectionname.TextXAlignment = Enum.TextXAlignment.Left
