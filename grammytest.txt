@@ -555,12 +555,12 @@ function library:Evil(text,text2,logo)
 
 		FrameTab.Name = "FrameTab"
 		FrameTab.Parent = Tab
-		FrameTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255) -- สีเทากลาง
+		FrameTab.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
 		FrameTab.BackgroundTransparency = 0
 		FrameTab.Position = UDim2.new(0, 0, 0, 22)
 		--FrameTab.Size = UDim2.new(0, 80, 0, 2)
 		FrameTab.Size = UDim2.new(0, 0, 0, 2)
-        FrameTab.Visible = true
+        FrameTab.Visible = false
 
 		UICorner_Tab.CornerRadius = UDim.new(0, 3)
 		UICorner_Tab.Parent = FrameTab
