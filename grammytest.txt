@@ -553,6 +553,15 @@ function library:Evil(text,text2,logo)
 		local TextLabel = Instance.new("TextLabel")
 		icon = 123
 
+		
+		FrameTab.Name = "FrameTab"
+		FrameTab.Parent = Tab
+		FrameTab.BackgroundTransparency = 0
+		FrameTab.Position = UDim2.new(0, 0, 0, 22)
+		--FrameTab.Size = UDim2.new(0, 80, 0, 2)
+		FrameTab.Size = UDim2.new(0, 0, 0, 2)
+                FrameTab.Visible = false
+
 		Tab.Name = "Tab"
 		Tab.Parent = TabContainer
 		Tab.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
