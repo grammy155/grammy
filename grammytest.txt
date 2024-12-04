@@ -422,7 +422,7 @@ function library:Evil(text,text2,logo)
 	UIStroke96.Parent = Main
 	UIStroke96.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 	UIStroke96.LineJoinMode = Enum.LineJoinMode.Round
-	UIStroke96.Color = _G.Color
+	UIStroke96.Color = Color3.fromRGB(0, 0, 0)
 	UIStroke96.Transparency = 0.10
 	
 	Logo.Name = "Logo"
