@@ -457,7 +457,7 @@ function library:Evil(text,text2,logo)
 	Title2.Size = UDim2.new(0, 483, 0, 31)
 	Title2.Font = Enum.Font.GothamMedium
 	Title2.Text = text2
-	Title2.TextColor3 = Color3.fromRGB(0, 0, 0)
+	Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Title2.TextSize = 17.000
 	Title2.TextWrapped = true
 	Title2.TextXAlignment = Enum.TextXAlignment.Left
