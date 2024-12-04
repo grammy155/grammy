@@ -555,7 +555,7 @@ function library:Evil(text,text2,logo)
 
 		FrameTab.Name = "FrameTab"
 		FrameTab.Parent = Tab
-		FrameTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		FrameTab.BackgroundColor3 = Color3.fromRGB(128, 128, 128) -- สีเทากลาง
 		FrameTab.BackgroundTransparency = 0
 		FrameTab.Position = UDim2.new(0, 0, 0, 22)
 		--FrameTab.Size = UDim2.new(0, 80, 0, 2)
