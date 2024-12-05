@@ -1268,7 +1268,7 @@ function library:Evil(text,text2,logo)
 				MainDropDown_3.BackgroundTransparency = 1
 				MainDropDown_3.BorderSizePixel = 0
 				MainDropDown_3.ClipsDescendants = true
-				MainDropDown_3.Size = UDim2.new(0, 265, 0, 15)
+				MainDropDown_3.Size = UDim2.new(0, 265, 0, 30)
 				MainDropDown_3.ZIndex = 16
 
 				local Text_3 = Instance.new("TextLabel")
